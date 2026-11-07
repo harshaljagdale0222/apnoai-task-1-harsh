@@ -18,6 +18,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 body {
@@ -450,11 +451,14 @@ p {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    gap: 0.85rem;
+    padding: 0.75rem 0;
   }
 
   .main-nav {
     flex-wrap: wrap;
     justify-content: center;
+    gap: 1.25rem;
   }
 
   .hero {
